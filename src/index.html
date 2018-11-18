@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>EndlesssMind</title>
+
+  <!-- Fonts: Lato, Open Sans -->
+  <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans:300,400,600,700" rel="stylesheet">
+
+  <!-- Main css -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="page">
+  <!-- Header section -->
+  <header class="section-header section" id="header">
+
+    <!-- header menu -->
+    <div class="box box-menu">
+
+      <div class="wrapper wrapper-menu">
+        <div class="menu">
+          <a href="#header" class="logo">EnMi</a>
+
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#header" class="nav__link">home</a></li>
+              <li class="nav__item">
+                <a href="#about" class="nav__link">about</a></li>
+              <li class="nav__item">
+                <a href="#works" class="nav__link">works</a></li>
+              <li class="nav__item">
+                <a href="#footer" class="nav__link">find me</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <!-- /.menu -->
+    </div>
+    <!-- /.box box-menu -->
+    <div class="wrapper wrapper-header">
+      <span class="main-text">oh...</span>
+      <span class="main-text">it's u...</span>
+    </div>
+    <!-- /.wrapper wrapper-header -->
+  </header>
+
+  <section class="section section-about" id="about">
+    <div class="wrapper wrapper-about">
+      <h2 class="title">about</h2>
+      <img class="about-image" src="img/about/about_img.jpg" alt="face" width="200px" height="200px">
+
+      <p class="about-text"> Hola amigo, I am
+        <span class="about-text__name">Nikita Bely</span><br>
+        <strong class="about-text__important">UI/UX designer, frontend developer</strong>
+      </p>
+
+      <!-- List enjoys -->
+      <ul class="items">
+        <li class="item">
+          <div class="item__image-box">
+            <svg viewBox="0 0 100 100" class="item__image">
+              <use xlink:href="img/svg/svg.svg#coding"></use>
+            </svg>
+          </div>
+          <!-- /.item__image -->
+          <span class="item__text">code</span>
+        </li>
+
+        <li class="item">
+          <div class="item__image-box">
+            <svg viewBox="0 0 100 100" class="item__image">
+              <use xlink:href="img/svg/svg.svg#website-design-symbol"></use>
+            </svg>
+          </div>
+          <!-- /.item__image -->
+          <span class="item__text">design</span>
+        </li>
+
+        <li class="item">
+          <div class="item__image-box">
+            <svg viewBox="0 0 100 100" class="item__image">
+              <use xlink:href="img/svg/svg.svg#pizza"></use>
+            </svg>
+          </div>
+          <!-- /.item__image -->
+          <span class="item__text">food</span>
+        </li>
+
+        <li class="item">
+          <div class="item__image-box">
+            <svg viewBox="0 0 100 100" class="item__image">
+              <use xlink:href="img/svg/svg.svg#bed"></use>
+            </svg>
+          </div>
+          <!-- /.item__image -->
+          <span class="item__text">sleep</span>
+        </li>
+      </ul>
+    </div>
+    <!-- /.wrapper wrapper-about -->
+  </section>
+  <!-- /.section section-about -->
+
+  <section class="section section-works" id="works">
+    <div class="wrapper wrapper-works">
+
+      <h2 class="title title-works">works</h2>
+      <!-- Slider -->
+      <div class="slider-box">
+        <div class="slider">
+          <div class="slider__btn-arrow" onclick="plusSlides(-1)">
+            <svg class="slider__control-btn" viewBox="0 0 100 100">
+              <use xlink:href="img/svg/svg.svg#left-arrow-angle"></use>
+            </svg>
+          </div>
+          <!-- /.slider__left-arrow -->
+
+          <div class="slider__mainscreen">
+            <img class="slider__image fade" src="img/works/slider/city.jpg" alt="photo new-york">
+            <img class="slider__image fade" src="img/works/slider/coub.jpg" alt="cube in the sky">
+            <img class="slider__image fade" src="img/works/slider/skull.jpg" alt="romantic skeleton">
+          </div>
+          <!-- /.slider__mainscreen -->
+
+          <div class="slider__btn-arrow" onclick="plusSlides(1)">
+            <svg class="slider__control-btn" viewBox="0 0 100 100">
+              <use xlink:href="img/svg/svg.svg#right-arrow-angle"></use>
+            </svg>
+          </div>
+          <!-- /.slider__right-arrow -->
+        </div>
+        <!-- /.slider -->
+      </div>
+      <!-- /.slider-box -->
+    </div>
+  </section>
+  <!-- /.section section-works -->
+
+  <!-- footer -->
+  <footer class="section footer-section" id="footer">
+
+    <div class="wrapper wrapper-footer">
+      
+      <!-- mail button -->
+      <div class="mail">
+        <div class="mail__ico-box">
+          <svg viewBox="0 0 100 100" class="mail__ico">
+          <use xlink:href="img/svg/svg.svg#close-envelope"></use>
+          </svg>
+        </div>
+        <a href="mailto:edge.for.soul@gmail.com" class="mail__link">message me</a>
+      </div>
+      <ul class="social">
+        <li class="social__item">
+          <a href="#" class="social__link">
+            <svg viewBox="0 0 100 100" class="social__ico">
+              <use xlink:href="img/svg/svg.svg#dribble-logo"></use>
+            </svg>
+          </a></li>
+
+        <li class="social__item">
+          <a href="#" class="social__link">
+            <svg viewBox="0 0 100 100" class="social__ico">
+              <use xlink:href="img/svg/svg.svg#facebook-logo"></use>
+            </svg>
+          </a></li>
+
+        <li class="social__item">
+          <a href="#" class="social__link">
+            <svg viewBox="0 0 100 100" class="social__ico">
+              <use xlink:href="img/svg/svg.svg#pinterest"></use>
+            </svg>
+          </a></li>
+
+        <li class="social__item">
+          <a href="#" class="social__link">
+            <svg viewBox="0 0 100 100" class="social__ico">
+              <use xlink:href="img/svg/svg.svg#twitter-logo-silhouette"></use>
+            </svg>
+          </a></li>
+      </ul>
+    </div>
+
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/smooth.js"></script>
+  <script src="js/slider.js"></script>
+</body>
+
+</html>

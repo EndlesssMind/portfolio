@@ -1,0 +1,71 @@
+/* Varibales */
+$accent-color: #d7ddd1;
+$accent-dark: #09140e;
+
+/* Footer */
+.footer-section {
+  background-color: $accent-dark;
+}
+/* Footer wrapper */
+.wrapper-footer {
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+/* Social list */
+.social {
+  display: flex;
+
+  list-style: none;
+}
+
+.social__item {
+  margin: 0 5px;
+}
+
+/* Social ico */
+.social__ico {
+  height: 30px;
+  width: 30px;
+
+  fill: $accent-color;
+
+  &:hover {
+    fill: lighten($color: $accent-color, $amount: 20);
+  }
+}
+
+/* Mail btn */
+.mail {
+  padding: 0 10px;
+  display: flex;
+
+  border: 3px solid $accent-color;
+}
+
+.mail__ico-box {
+  display: inline-flex;
+}
+
+.mail__ico {
+  width: 30px;
+  height: 30px;
+
+  fill: $accent-color;
+  margin: 10px;
+  margin-left: 0;
+}
+
+.mail__link {
+  display: inline;
+
+  text-decoration: none;
+  color: $accent-color;
+
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 45px;
+}
