@@ -2,4 +2,4 @@
 
 
 
-![макет сайта](https://ibb.co/kx3Ln0)
+![макет сайта](https://github.com/EndlesssMind/portfolio/blob/master/src/design/design.jpg)
